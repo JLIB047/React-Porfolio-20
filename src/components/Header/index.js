@@ -26,6 +26,11 @@ function Header() {
 
     return (
     <div>
+        <nav className="navbar">
+            <div className="navbar-brand">
+                
+            </div>
+        </nav>
         <Navigation 
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
