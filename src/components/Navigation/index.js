@@ -1,28 +1,30 @@
 import React from 'react';
 
-function Nav(props) {
-const {
-    contactSelected,
-    setContactSelected
-} = props;
+function Navigation(props) {
+    const tabs = ["About", "Portfolio", "Contact", "Resume"];
 
     return (
-        <header>
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about" onClick={() => setContactSelected(false)}>
-                            About Me 
+        <div className="tabs is-centered">
+            <ul className="nav nav-tabs">
+                {tabs.map((tab) => (
+                    <li className={
+                        props.currentPage === tab ? "nav-item is active" : "nav-item"
+                    }
+                    key={tab}>
+                        <a href={"#" + tab.toLoweCase()}
+                        //current page is set through handlePageChange props
+                        onClick={() => props.handlePageChange(tab)}
+                        className={props.currentPage === tab ? "nav-link active" : "nav-link"}
+                        >
+                            {tab}
                         </a>
                     </li>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                    <span href="contact-form" onClick={() => setContactSelected(true)}>Contact</span>
-                    </li>
-                </ul>
-            </nav>
-
-        </header>
+                ))}
+            </ul>
+        </div>
     )
+
+    
 }
 
-export default Nav;
+export default Navigation;
