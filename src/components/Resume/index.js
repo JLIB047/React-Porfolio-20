@@ -4,7 +4,7 @@ function Resume() {
     return (
         <div className="columns">
             <div className="column">
-                <p className="content is-medium">Resume</p>
+                <p id="resume" className="content">Resume</p>
                 <br />
 
                 <a className="button is-primary"
@@ -13,13 +13,13 @@ function Resume() {
                        <span className="icon">
                            <i className="fas fa-download"></i>
                        </span>
-                       <span>Download My Resume</span>
+                       <span id="download">Download My Resume</span>
                    </a>
             </div>
-            <div className="column">
-                <p className="content is-medium">Skills</p>
-                <br />
-                <ul>
+            <div  className="column">
+                <p id="skill-title" className="content">Skills</p>
+               
+                <ul id="skills">
                     <li>HTML, CSS, Javascript</li>
                     <li>Web Apis, Server-Side Apis</li>
                     <li>MongoDb, Express.js, React, Node</li>

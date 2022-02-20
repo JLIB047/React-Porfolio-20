@@ -56,7 +56,7 @@ function Contact() {
             </form>
 
              <h4 className="content is-medium">Contact info</h4>
-                <a href="mailto: jason.libertelli@gmail">Email: jason.libertelli@gmail.com</a>
+                <a id="email-link" href="mailto: jason.libertelli@gmail">Email: jason.libertelli@gmail.com</a>
 
         </section>
     )

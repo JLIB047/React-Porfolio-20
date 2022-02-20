@@ -8,9 +8,9 @@ function Project (props) {
                     <div className="column is-half">
                         <div className="card">
                             <div className="card-image">
-                                <figure className="image is-4by3">
+                                <figure className="image">
                                     <a href={project.live} target="_blank" rel="noreferrer">
-                                        <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" /> 
+                                        <img src={project.image} alt="Placeholder" /> 
                                     </a>
                                 </figure>
                             </div>

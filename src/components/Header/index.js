@@ -28,7 +28,12 @@ function Header() {
     <div>
         <nav className="navbar">
             <div className="navbar-brand">
-                
+                <a className="navbar-item"
+                   rel="noreferrer"
+                   target="_blank"
+                   href="https://github.com/JLIB047">
+                       <span className="content is-large">Jason Libertelli</span>
+                   </a>
             </div>
         </nav>
         <Navigation 
