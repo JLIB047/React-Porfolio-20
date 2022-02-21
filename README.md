@@ -11,7 +11,7 @@ To create an updated website with my latest portfolio of work, an about page, a 
 
 ## Links 
 - Github
-https://github.com/JLIB047/React-Porfolio-20
+https://github.com/JLIB047/React-Portfolio-20
 
 - GhPages 
 
