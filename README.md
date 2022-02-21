@@ -14,7 +14,7 @@ To create an updated website with my latest portfolio of work, an about page, a 
 https://github.com/JLIB047/React-Portfolio-20
 
 - GhPages 
-
+http://JLIB047.github.io/React-Portfolio-20
 
 ## Contribution 
 Created and Designed by Jason Libertelli 
