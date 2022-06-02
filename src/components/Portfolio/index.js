@@ -4,13 +4,13 @@ import Project from '../Project';
 const projects =[
     {
         id:0,
-        title: "RunBuddy",
-        language: "HTMl, CSS, JavaScript",
-        packages: "N/a",
-        image: require("../../assets/pictures/running-shoe .jpeg"),
+        title: "Chat-App",
+        language: "React, Node, Express ",
+        packages: "bcrypt, nodemon, dotenv, stream-chat, twilio",
+        image: require("../../assets/pictures/Chat-App.jpg"),
         description: "Allows the user to hit their fitness goals by putting them in contact with a trainer.",
-        repo: "https://github.com/JLIB047/run-buddy",
-        live: "https://jlib047.github.io/run-buddy/",
+        repo: "https://github.com/JLIB047/Chat-App",
+        live: "textchatmessage.netlify.app",
     },
     {
         id:1,
