@@ -8,7 +8,7 @@ const projects =[
         language: "React, Node, Express ",
         packages: "bcrypt, nodemon, dotenv, stream-chat, twilio",
         image: require("../../assets/pictures/Chat-App.jpg"),
-        description: "Allows the user to hit their fitness goals by putting them in contact with a trainer.",
+        description: "Chat with other users in a driect message or chat with a lot of users in a Channel.  You can share text pictures, videos, and emojis. ",
         repo: "https://github.com/JLIB047/Chat-App",
         live: "textchatmessage.netlify.app",
     },
