@@ -5,15 +5,10 @@ function Resume() {
         <div className="columns">
             <div className="column">
                 <p id="resume" className="content">Resume</p>
-                <br />
-
-                <a className="button is-primary"
-                   href={process.env.PUBLIC_URL + "/jason-libertelli-resume.pdf"}
+                
+                <a href={process.env.PUBLIC_URL + "/jason-libertelli-resume.pdf"}
                    target="_blank" rel="noreferrer">
-                       <span className="icon">
-                           <i className="fas fa-download"></i>
-                       </span>
-                       <span id="download">Download My Resume</span>
+                       <p id="download">Download My Resume</p>
                    </a>
             </div>
             <div  className="column">

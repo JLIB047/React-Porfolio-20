@@ -4,8 +4,8 @@ function Navigation(props) {
     const tabs = ["About", "Portfolio", "Contact", "Resume"];
 
     return (
-        <div className="tabs is-centered">
-            <ul className="nav nav-tabs">
+        <div className="tabs">
+            <ul id="nav-tabs">
                 {tabs.map((tab) => (
                     <li className={
                         props.currentPage === tab ? "nav-item is active" : "nav-item"
