@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-20/static/css/main.edb6b591.css",
-    "main.js": "/React-Portfolio-20/static/js/main.e73a8ff0.js",
+    "main.css": "/React-Portfolio-20/static/css/main.1db49095.css",
+    "main.js": "/React-Portfolio-20/static/js/main.ef9588fe.js",
     "static/js/787.cf91250d.chunk.js": "/React-Portfolio-20/static/js/787.cf91250d.chunk.js",
     "static/media/IMG_0046.JPG": "/React-Portfolio-20/static/media/IMG_0046.e9922b7ff469ef6021ec.JPG",
-    "static/media/running-shoe .jpeg": "/React-Portfolio-20/static/media/running-shoe .7c1b62659cfc0f0e6315.jpeg",
+    "static/media/Chat-App.jpg": "/React-Portfolio-20/static/media/Chat-App.b605330bec5401fc120b.jpg",
     "static/media/Your-Space.png": "/React-Portfolio-20/static/media/Your-Space.b83a2f694ab126e2f601.png",
     "static/media/VLD8r-home.jpeg": "/React-Portfolio-20/static/media/VLD8r-home.f913c2d73ecc88ea7571.jpeg",
     "index.html": "/React-Portfolio-20/index.html",
-    "main.edb6b591.css.map": "/React-Portfolio-20/static/css/main.edb6b591.css.map",
-    "main.e73a8ff0.js.map": "/React-Portfolio-20/static/js/main.e73a8ff0.js.map",
+    "main.1db49095.css.map": "/React-Portfolio-20/static/css/main.1db49095.css.map",
+    "main.ef9588fe.js.map": "/React-Portfolio-20/static/js/main.ef9588fe.js.map",
     "787.cf91250d.chunk.js.map": "/React-Portfolio-20/static/js/787.cf91250d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edb6b591.css",
-    "static/js/main.e73a8ff0.js"
+    "static/css/main.1db49095.css",
+    "static/js/main.ef9588fe.js"
   ]
 }
