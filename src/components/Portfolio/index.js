@@ -10,7 +10,7 @@ const projects =[
         image: require("../../assets/pictures/Chat-App.jpg"),
         description: "Chat with other users in a driect message or chat with a lot of users in a Channel.  You can share text pictures, videos, and emojis. ",
         repo: "https://github.com/JLIB047/Chat-App",
-        live: "textchatmessage.netlify.app",
+        live: "https://textchatmessage.netlify.app",
     },
     {
         id:1,
